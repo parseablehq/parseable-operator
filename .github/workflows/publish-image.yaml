@@ -30,7 +30,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v6
         with:
-          images: quay.io/parseablehq/parseable_operator
+          images: quay.io/parseablehq/parseable-operator
           flavor: latest=false
           tags: |
             type=raw,value=edge,enable=${{ github.ref == 'refs/heads/main' }}
